@@ -17,7 +17,11 @@ Enter the folder:
 ```
 $ cd pi-docker-postgres
 ```
-Edit the postgresql.conf file if needed:
+Edit the Dockerfile to set user(SECRET_USER) and password(SECRET_PASSWORD):
+```
+$ nano Dockerfile
+```
+Edit the postgresql.conf file if more configuration is needed for your case:
 ```
 $ nano postgresql.conf
 ```
