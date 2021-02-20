@@ -1,5 +1,5 @@
-# Base PostgreSQL image for arm64v8 architecture
-FROM arm64v8/postgres:13.1
+# Base PostgreSQL image
+FROM postgres:13.1
 
 # Set User and Password
 ENV POSTGRES_USER=SECRET_USER
