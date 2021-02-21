@@ -5,11 +5,11 @@
 ### Setup
 Clone this repository:
 ```
-$ git clone git@github.com:gabriel-aranha/pi-docker-postgres.git
+$ git clone git@github.com:gabriel-aranha/docker-postgres.git
 ```
 Enter the folder:
 ```
-$ cd pi-docker-postgres
+$ cd docker-postgres
 ```
 Edit the Dockerfile to set user(SECRET_USER) and password(SECRET_PASSWORD):
 ```
