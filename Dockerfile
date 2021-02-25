@@ -1,5 +1,5 @@
 # Base PostgreSQL image
-FROM postgres:13.1
+FROM postgres:latest
 
 # Set User and Password
 ENV POSTGRES_USER=SECRET_USER
